@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(to right bottom, rgb(222, 116, 137), crimson);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+button {
+  padding: 20px 100px;
+  border-radius: 50px;
+  background: linear-gradient(lightgreen, seagreen);
+  color: #241e1e;
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+button:active{
+  scale: 0.96;
+}
